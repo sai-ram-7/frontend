@@ -6,8 +6,33 @@
   <title>Document</title>
   <!-- Internal CSS -->
   <style>
+*{
+  background-color:chocolate;
+}
+
+    /* type selector */
     p {
       color: black;
+    }
+    /* class selector */
+    .a{
+      color: red;
+    }
+/* id selector */
+    #b{
+      color: gray;
+    }
+/* descendant selector */
+    div p{
+      color: lightblue;
+    }
+/* child selector */
+    ol>li{
+      color: aquamarine;
+    }
+/* attribute selector */
+    input[type="text"]{
+      color: blueviolet;
     }
   </style>
   <!-- External CSS -->
@@ -18,5 +43,23 @@
   <p style="background-color: palegoldenrod;">
     This is the second week of the frontend class
   </p>
+
+  <p class="a">
+    we are going 
+  </p>
+  <p id="b">
+    to have 
+  </p>
+  <div>
+    <p>a test tommorow</p>
+  </div>
+
+  <ol>
+    <li>need to complete it</li>
+  </ol>
+  <label for="c"></label>
+  <input type="text" id="c">
+
+
 </body>
 </html>
