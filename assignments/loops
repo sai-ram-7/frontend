@@ -1,0 +1,67 @@
+// 1st question
+for (let i=1; i<=10; i++){
+  console.log(i);
+}
+let j=1
+while (j<=10 ){
+  console.log(i);
+  i++;
+}
+
+let k =1;
+do {
+  console.log(k);
+  k++;
+}while(k<=10);
+
+
+//2nd question
+
+for (let a = 2; a<=20; a++){
+  if (a%2==0){
+    console.log(a)
+  }
+}
+
+let a =2
+while(a<=20){
+  if(a%2==0){
+    console.log(a)
+  }
+  a++;
+}
+
+let aa= 2
+do{
+  if (aa%2==0){
+    console.log(aa);
+  }
+  aa++;
+}while(aa<=20)
+
+// question 3 
+
+for (let i=10; i>=1; i--){
+  console.log(i)
+}
+
+let bb = 10
+while(bb>=1){
+  console.log(bb);
+  bb--;
+}
+
+let b =10
+do{
+  console.log(b);
+  b--
+}while(b>=1)
+
+//question 4
+let c = String()
+let sum =0
+for (let i=1; i<=c; i++){
+  sum +=i
+}
+console.log(i)
+
